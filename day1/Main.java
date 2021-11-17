@@ -1,11 +1,11 @@
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
         int n = 110;
         
-        Map<Integer, String> fizzBuzzMap = new HashMap<>();
+        Map<Integer, String> fizzBuzzMap = new LinkedHashMap<>();
         fizzBuzzMap.put(3, "fizz");
         fizzBuzzMap.put(5, "buzz");
         fizzBuzzMap.put(7, "Lazz");
