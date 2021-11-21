@@ -16,7 +16,7 @@ public class Fibonacci {
 
     public static List<Integer> generateList(int n) {
         return IntStream.rangeClosed(1, n)
-                        .mapToObj(i -> calc(i))
-                        .collect(Collectors.toList());
+                .mapToObj(i -> calc(i))
+                .collect(Collectors.toList());
     }
 }
